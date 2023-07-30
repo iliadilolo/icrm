@@ -12,8 +12,8 @@ if READ_DOT_ENV_FILE:
     environ.Env.read_env()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DEBUG = env('DEBUG')
-SECRET_KEY = env('SECRET_KEY')
+DEBUG = True
+SECRET_KEY = 'django-insecure-$rym93_(egjp5a2!@g=wdi13b_nh6n8^4$d6xkmuuc(ry=(*3%'
 
 
 ALLOWED_HOSTS = []
